@@ -11,8 +11,8 @@ nocache('./adon.js', module => console.log(`"${module}" Updated!`))
 adon.ev.on('messages.upsert', async denz => {
 if (!denz.messages) return
 msg = denz.messages[0]
-nomorOwner = ['6283137619111']
-nomorDeveloper = ['6283137619111']
+nomorOwner = ['6285707706518']
+nomorDeveloper = ['6285707706518']
 adon.sendPresenceUpdate('unavailable')
 require("./adon")(adon, denz, msg)})
 
